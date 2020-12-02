@@ -1,0 +1,27 @@
+{
+    "name": {
+        "field_type": "string",
+        "length": 50
+    },
+    "age": {
+        "field_type": "int",
+        "length": 3
+    },
+    "birth": {
+        "field_type": "date",
+        "length": 8,
+        "object_pattern": "YYYY-MM-DD",
+        "flat_pattern": "DD.MM.YY"
+    },
+    "creation": {
+        "field_type": "datetime",
+        "length": 19,
+        "object_pattern": "YYYY-MM-DDTHH:mm",
+        "flat_pattern": "DD.MM.YYYY HH:mm:ss"
+    },
+    "income": {
+        "field_type": "float",
+        "length": 12,
+        "decimals": 4
+    }
+}
