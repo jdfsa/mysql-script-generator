@@ -16,7 +16,7 @@
     "creation": {
         "field_type": "datetime",
         "length": 19,
-        "object_pattern": "YYYY-MM-DDTHH:mm",
+        "object_pattern": "YYYY-MM-DD HH:mm:ss",
         "flat_pattern": "DD.MM.YYYY HH:mm:ss"
     },
     "income": {

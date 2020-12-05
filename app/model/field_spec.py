@@ -10,4 +10,5 @@ class FieldSpec(TypedDict):
     serialize_pattern: str
     deserialize_pattern: str
     default_value: Any
-    
+    auto_generated: bool
+    database_script: str

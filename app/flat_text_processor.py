@@ -19,6 +19,7 @@ class FlatTextProcessor:
 
         for field in spec:
             field_spec = spec[field]
+
             handler = self.__get_handler(field_spec['field_type'])
 
             position_start = last_position
